@@ -1,4 +1,10 @@
 CmuEventRegistration::Application.routes.draw do
+  resources :organizer_lists
+
+  resources :events
+
+  resources :locations
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
