@@ -59,6 +59,7 @@ gem 'haml-rails'
 
 
 group :development do
+  gem "annotate"
   gem "pry-rails"
   gem "pry-plus"
   gem "awesome_print"
