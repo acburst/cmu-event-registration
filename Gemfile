@@ -43,3 +43,31 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# ***User Generated***
+
+# Development
+
+gem 'cmu_person'
+gem 'foundation-rails'
+gem 'simple_form'
+gem 'haml-rails'
+# gem 'font-awesome-rails'
+# gem 'pundit'
+# gem 'devise'
+# gem 'gritter'
+
+
+group :development do
+  gem "pry-rails"
+  gem "pry-plus"
+  gem "awesome_print"
+  gem "rack-livereload"
+  gem "guard-livereload"
+  gem "quiet_assets"
+  gem "xray-rails"
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "letter_opener"
+  gem "bullet"
+end
