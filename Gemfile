@@ -56,6 +56,10 @@ gem 'haml-rails'
 # gem 'pundit'
 # gem 'devise'
 # gem 'gritter'
+# gem 'turbolinks'
+# gem 'sidekiq'
+# gem 'rqrcode-rails3'
+# gem 'activemerchant'
 
 
 group :development do
@@ -71,4 +75,8 @@ group :development do
   gem "binding_of_caller"
   gem "letter_opener"
   gem "bullet"
+end
+
+group :test do
+  gem 'shoulda'
 end
